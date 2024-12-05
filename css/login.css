@@ -1,0 +1,54 @@
+body {
+    background: url("../images/img.png");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.loginBox {
+    width: 20rem;
+    height: 25rem;
+    background: white;
+    margin: 0 auto;
+    border-radius: 0.3rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.loginBox form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.loginBox input {
+    width: 100%;
+    outline-color:rgb(167, 227, 227) ;
+    background: rgb(243, 243, 243);
+    border: none;
+    height: 2.5rem;
+    padding-left: 0.6rem;
+}
+
+.loginBox .img img {
+    width: 100%;
+}
+
+.loginBox label {
+    color: grey;
+}
+
+button {
+    height: 2.5rem;
+    background: rgb(27, 182, 183);
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+}
